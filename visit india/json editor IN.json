@@ -1,0 +1,85 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "visit india",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetPlaceIntent",
+                    "slots": [
+                        {
+                            "name": "place",
+                            "type": "AMAZON.City"
+                        }
+                    ],
+                    "samples": [
+                        "its {place}",
+                        "may be {place}",
+                        "{place}",
+                        "i want to visit {place}"
+                    ]
+                },
+                {
+                    "name": "GetAnsIntent",
+                    "slots": [
+                        {
+                            "name": "ans",
+                            "type": "ansOne"
+                        }
+                    ],
+                    "samples": [
+                        "{ans}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "ansOne",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "no",
+                                "synonyms": [
+                                    "nah",
+                                    "nope",
+                                    "nop"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yes",
+                                "synonyms": [
+                                    "yep",
+                                    "okay",
+                                    "may be ",
+                                    "why not ",
+                                    "sure"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
