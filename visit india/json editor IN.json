@@ -9,15 +9,23 @@
                 },
                 {
                     "name": "AMAZON.CancelIntent",
-                    "samples": []
+                    "samples": [
+                        "cancel"
+                    ]
                 },
                 {
                     "name": "AMAZON.HelpIntent",
-                    "samples": []
+                    "samples": [
+                        "help me"
+                    ]
                 },
                 {
                     "name": "AMAZON.StopIntent",
-                    "samples": []
+                    "samples": [
+                        "stop",
+                        "quit",
+                        "cancel"
+                    ]
                 },
                 {
                     "name": "AMAZON.NavigateHomeIntent",
@@ -28,7 +36,7 @@
                     "slots": [
                         {
                             "name": "place",
-                            "type": "AMAZON.City"
+                            "type": "place"
                         }
                     ],
                     "samples": [
@@ -75,6 +83,341 @@
                                     "why not ",
                                     "sure"
                                 ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "place",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "goa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Agra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Andaman"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Munnar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Darjeeling"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Manali"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ooty"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Shimla"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gangtok"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ladakh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Delhi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Udaipur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kodaikanal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mussoorie"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mcleodganj"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pondicherry"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Vaishnodevi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Alleppey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tirupati"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nainital"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hyderabad"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dalhousie"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Coorg"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bangalore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jaipur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mount abu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chennai"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "visakhapatnam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mahabaleshwar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rishikesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lakshadweep-islands"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lucknow"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Haridwar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Srinagar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chandigarh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ahmedabad"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Trivandrum"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kochi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Aurangabad"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Corbett national park"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rameswaram"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ranthambore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Madurai"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hampi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Almora"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Auli"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Shirdi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kanyakumari"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Amritsar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kasol"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Khajuraho"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mumbai"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bodh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pune"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "kolkata"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "puri"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mahabalipuram"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Varanasi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Shillong"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jaisalmer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pushkar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jodhpur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mathura"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gokarna"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cherrapunjee"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "New Delhi"
                             }
                         }
                     ]
